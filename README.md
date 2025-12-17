@@ -30,6 +30,10 @@ Para la ejecución de las pruebas de rendimiento se utilizó una instancia en la
 
   Compartida: Se utiliza la técnica de Tiling (bloques). Los hilos de un bloque colaboran para cargar una pequeña sub-matriz ("tile") desde la Memoria Global a la Memoria Compartida. Una vez que los datos están en la memoria compartida, son reutilizados múltiples veces por los hilos del bloque sin tener que volver a consultar la lenta memoria global. Reduciendo drásticamente el ancho de banda necesario, permitiendo que los núcleos de la GPU operen más cerca de su capacidad máxima de cómputo.
 
+## Graficos 
+<img width="849" height="548" alt="download" src="https://github.com/user-attachments/assets/f9247310-1920-48fe-9989-364925f2803e" />
+
+<img width="868" height="547" alt="download (1)" src="https://github.com/user-attachments/assets/c3e59a2e-dc7a-4918-8b24-06fb8d35b8f1" />
 
 ## Conclusión 
   El experimento demuestra que, aunque el paralelismo masivo de la GPU ofrece una mejora inmediata sobre la CPU, el verdadero rendimiento se desbloquea al gestionar eficientemente la jerarquía de memoria.
